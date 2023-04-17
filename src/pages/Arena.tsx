@@ -2,7 +2,7 @@ import React from 'react';
 
 import { RoundCard } from '../components/RoundCard';
 
-export function Arena() {
+export function Arena({}) {
     return (
         <div className='p-24 bg-gray-100 space-y-6'>
 
