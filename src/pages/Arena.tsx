@@ -4,7 +4,7 @@ import { RoundCard } from '../components/RoundCard';
 
 export function Arena() {
     return (
-        <div className='p-24 bg-gray-100'>
+        <div className='p-24 bg-gray-100 space-y-6'>
 
             <h3 className="text-2xl">Current Rounds</h3>
 
