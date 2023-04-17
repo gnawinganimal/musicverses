@@ -10,7 +10,7 @@ export function RoundCard({
     desc: string,
 }) {
     return (
-        <div className='shadow-md'>
+        <div className='bg-white shadow-md p-6'>
             <h6 className=''>ROUND {num}</h6>
             
             <h4 className='text-2xl'>{name}</h4>

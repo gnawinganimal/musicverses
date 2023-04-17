@@ -4,9 +4,10 @@ import { RoundCard } from '../components/RoundCard';
 
 export function Arena() {
     return (
-        <div>
+        <div className='p-24 bg-gray-100'>
 
             <h3 className="text-2xl">Current Rounds</h3>
+
             <RoundCard
                 num={11}
                 name="Top Artist of 2022"
