@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { Arena } from './pages/Arena';
+
 function App() {
   return (
     <div className="App">
-      Add things here
+      <Arena />
     </div>
   );
 }
