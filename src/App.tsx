@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 
 import { Arena } from './pages/Arena';
+import { Vote } from './pages/Vote';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
           <Route 
             path="arena/:id"
             element={<Arena />}
+          />
+                    <Route 
+            path="arena/:id/vote"
+            element={<Vote />}
           />
         </Routes>
       </BrowserRouter>
