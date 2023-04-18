@@ -15,7 +15,7 @@ function App() {
             path="arena/:id"
             element={<Arena />}
           />
-                    <Route 
+          <Route 
             path="arena/:id/vote"
             element={<Vote />}
           />
